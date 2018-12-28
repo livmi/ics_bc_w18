@@ -4,4 +4,5 @@
 # ... Seriously though, Googling things is highly underrated.
 
 
-### Your Code Here ###
+#1 average year =
+puts (365.0+(1.0/4.0)-(1.0/100.0)+(1.0/400.0)) * 24.0

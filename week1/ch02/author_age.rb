@@ -4,4 +4,4 @@
 # Use 365.25 days/year to both take leap years into account and get a more accurate decimal
 
 
-### Your Code Here ###
+puts 1160000000.0*(1.0/60.0)*(1.0/60.0)*(1.0/24.0)*(1.0/365.25)
