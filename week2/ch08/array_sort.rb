@@ -1,10 +1,21 @@
-word_list = []
+words = []
+word = 'word'
 
 puts 'Please enter the desired words (one per line), and press enter when finished:'
 
 # Fetch the words, then output the sorted list
-while ()
-
+while word != ''
+  word = gets.chomp
+  words = words.push word
 end
 
-puts word_list # Make sure its sorted!
+puts ''
+
+puts 'Your desired words:'
+puts ''
+puts words
+
+puts ''
+
+puts 'Your desired words sorted:'
+puts words.sort # Make sure its sorted!

@@ -6,4 +6,18 @@ starting = gets.chomp ## FIXME?
 print("Now enter a ending year: ")
 ending = gets.chomp ## FIXME?
 
-### Rest of your code here ###
+
+puts ''
+
+while starting.to_i <= ending.to_i
+
+  if starting.to_i % 400 == 0
+    puts starting
+  elsif starting.to_i % 100 == 0
+  elsif starting.to_i % 4 == 0
+    puts starting
+  end
+
+  starting = starting.to_i + 1
+
+end
